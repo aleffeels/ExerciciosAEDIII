@@ -1,3 +1,4 @@
+//Redução do texto em um número menor de bits.
 #include <bits/stdc++.h>
 
 using namespace std;
