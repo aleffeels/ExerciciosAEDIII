@@ -1,3 +1,4 @@
+//Transformando texto de binário para decimal
 #include <bits/stdc++.h>
 
 using namespace std;
