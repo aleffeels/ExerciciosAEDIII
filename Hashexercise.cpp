@@ -1,3 +1,4 @@
+//Tabela Hash - Inserir, Pesquisa, Exibe, Deleta
 #include <bits/stdc++.h>
 #define TAM 20
 
@@ -42,7 +43,7 @@ void insere(int chave,int morte)
 
     int indice = hashing(chave);
 
-    while(Hash[indice] != NULL && Hash[indice]->chave != -1) // N„o encontrei como excluir, mas isso faz com que outro elemento possa ser colocado no lugar desse sem problemas, È como se marcasse ele como "espaÁo disponÌvel". Deixei pra ultima hora e n„o vai dar tempo de caprichar.
+    while(Hash[indice] != NULL && Hash[indice]->chave != -1) // N√£o encontrei como excluir, mas isso faz com que outro elemento possa ser colocado no lugar desse sem problemas, √© como se marcasse ele como "espa√ßo dispon√≠vel". Deixei pra ultima hora e n√£o vai dar tempo de caprichar.
     {
         ++indice;
         indice %= TAM;
