@@ -1,3 +1,4 @@
+//Compacta String em uma sequência binária
 #include<bits/stdc++.h>
 #include<string.h>
 #include<locale.h>
@@ -59,7 +60,7 @@ int main()
     gets(str);
     fputs(str,fp);
     binario(str,b);
-    cout << "Binario � = " << b;
+    cout << "Binario é = " << b;
     tamanho=strlen(b);
     dividir(b,tamanho);
 
