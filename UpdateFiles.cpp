@@ -1,4 +1,4 @@
-
+//Criando/abrindo arquivo para manipulação
 #include <stdio.h>
 #include <bits/stdc++.h>
 #include<locale.h>
@@ -12,12 +12,12 @@ main()
     gets(arquivonew);
     if((fp=fopen(arquivonew, "w"))==NULL)
     {
-        printf("arquivo n�o pode ser aberto\n");
+        printf("arquivo não pode ser aberto\n");
         exit(1);
     }
     do
     {
-        printf("Digite a frase que deseja passar para o arquivo: (d� dois enters se quiser sair do programa) : \n");
+        printf("Digite a frase que deseja passar para o arquivo: (dê dois enters se quiser sair do programa) : \n");
         gets(str);
         strcat(str, "\n");
         fputs(str, fp);
