@@ -11,7 +11,7 @@ main()
     string a, b, consulta;  //nome, sobrenome, variavel usada na busca
 
 
-    do // Repetição do menu até que o "casos" digitado seja = "4"
+    do // RepetiÃ§Ã£o do menu atÃ© que o "casos" digitado seja = "4"
     {
         cout<<"\n____Menu____"<<endl;
         cout<<"1- Inserir"<<endl;
@@ -23,9 +23,9 @@ main()
         switch(casos)
         {
         case 1 : // Inserir
-            cout<<"Digite o nome e depois o sobrenome da criança: ";
+            cout<<"Digite o nome e depois o sobrenome da crianÃ§a: ";
             cin>>a>>b;
-            familia.insert(pair<string,string>(a,b)); //Criação de um pair de duas strings para o map "familia"
+            familia.insert(pair<string,string>(a,b)); //CriaÃ§Ã£o de um pair de duas strings para o map "familia"
             break;
 
         case 2 : // Consultar
@@ -55,7 +55,7 @@ main()
             break;
 
         default :
-            printf ("Entrada inválida!\n");
+            printf ("Entrada invÃ¡lida!\n");
         }
     }
     while(casos!=4);
