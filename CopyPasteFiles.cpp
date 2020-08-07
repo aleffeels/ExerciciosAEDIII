@@ -1,3 +1,4 @@
+//Copiando e colando informações de um arquivo com algoritmo C++
 #include<bits/stdc++.h>
 
 int main(){
